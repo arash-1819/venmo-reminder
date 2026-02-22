@@ -1,0 +1,5 @@
+flask
+requests
+flask_sqlalchemy
+schedule
+twilio  # For SMS reminders (or other SMS service)

@@ -1,21 +1,25 @@
-# Ignore Python bytecode
-*.pyc
-*.pyo
-*.pyd
-__pycache__
-
-# Ignore virtual environments
+# Virtual Environment
 venv/
 
-# Ignore SQLite database files
+# Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Flask specific
+instance/
 *.db
 
-# Ignore environment variable files (like .env, if you use one)
+# Environment variables
 .env
 
-# Ignore logs
-*.log
+# IDEs
+.vscode/
+.idea/
 
-# Ignore OS-specific files
+# OS-specific
 .DS_Store
 Thumbs.db
+
+# PyCharm-specific
+*.iml
